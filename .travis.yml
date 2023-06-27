@@ -1,5 +1,5 @@
 language: c
-script: asdf plugin-test spark https://github.com/joshuaballoch/asdf-spark.git
+script: asdf plugin-test spark https://github.com/fdiinc/asdf-spark.git
 before_script:
   - git clone https://github.com/asdf-vm/asdf.git
   - . asdf/asdf.sh
