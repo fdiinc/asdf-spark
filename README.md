@@ -1,3 +1,5 @@
+![Test](https://github.com/fdiinc/asdf-spark/actions/workflows/test.yml/badge.svg)
+
 # asdf-spark
 
 Spark plugin for [asdf](https://github.com/asdf-vm/asdf) version manager
