@@ -28,10 +28,10 @@ jobs:
       # Install asdf locally
       - name: Install asdf
         run: |
-          git clone https://github.com/asdf-vm/asdf.git
-          . asdf/asdf.sh
+          git clone https://github.com/asdf-vm/asdf.git          
 
       - name: Test plugin
         run: |
-          asdf plugin-test spark https://github.com/fdiinc/asdf-spark.git
+          . asdf/asdf.sh
+          asdf plugin-test spark .
           
